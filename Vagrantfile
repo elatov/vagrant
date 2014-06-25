@@ -1,8 +1,8 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 boxes = [
-  { :name => :web,:role => 'web',:ip => '192.168.33.2',:ssh_port => 2201,:http_port => 8080,:cpus => 1, :mem => 512},
   { :name => :db,:role => 'db',:ip => '192.168.33.3',:ssh_port => 2202,:cpus => 1,:mem => 512 },
+  { :name => :web,:role => 'web',:ip => '192.168.33.2',:ssh_port => 2201,:http_port => 8080,:cpus => 1, :mem => 512},
   ]
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
